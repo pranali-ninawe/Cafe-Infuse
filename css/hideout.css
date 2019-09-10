@@ -17,7 +17,7 @@ body { background-color: #996633;
 
 header { background-color: #ffffcc;
        color: #000000;
-	   background-image: url(coffeecup.png);
+	   background-image: url(../images/coffeecup.png);
 	   background-repeat: no-repeat;
      background-position: left 10px bottom 5px top 5px;
      background-size: 100px 100px;
@@ -85,7 +85,7 @@ footer { font-size: 75%;
 	   padding: 20px;
 }
 
-.coffee-pic { background-image: url(coffee-beans-background.jpg);
+.coffee-pic { background-image: url(../images/coffee-beans-background.jpg);
        height: 400px;
 		   background-repeat: no-repeat;
 		   background-size: 100% 100%;
