@@ -1,28 +1,43 @@
-body { background-color: #996633;
-      color: #666666;
-	  font-family: Arial, Helvetica, sans-serif;
-	  background-image: url(../images/steam.jpg);
-	  background-repeat: no-repeat;
+body { background-color: #ffffff;
+      /* color: #666666; */
 }
 
-#wrapper { width: 80%;
-           margin-left: auto;
+#wrapper {
+       margin-left: auto;
 		   margin-right: auto;
 		   background-color: #FFFFFF;
 		   min-width: 960px;
 		   max-width: 2048px;
-		   box-shadow: 3px 3px 3px #333333;
+		   /*   box-shadow: 3px 3px 3px #333333; */
 }
 
-header { background-color: #ffffcc;
+.timing{
+  background-color:#000;
+  color:#fff;
+  display:inline-block;
+  margin-left: 1200px;
+  margin-top: 450px;
+  padding-left:10px;
+  padding-right:8px;
+  text-align:center;
+  font-family: 'Pacifico', cursive;
+
+}
+header {
+       background-color: #ffffff;
        color: #000000;
-	   background-image: url(../images/coffeecup.png);
-	   background-repeat: no-repeat;
-     background-position: left 10px bottom 5px top 5px;
-     background-size: 100px 100px;
-	   text-align: center;
-	   height: 80px;
-	   padding-top: 25px;
+       background-image: url(../images/coffeebeansheart.jpeg);
+       background-repeat: no-repeat;
+       background-size: 100px 100px;
+       background-position: center;
+       text-align: center;
+       /* height: 80px; */
+       padding: 25px;
+       /* margin-top: 10px; */
+       /* margin-bottom: 0; */
+       /* margin-top: auto; */
+       font-family: 'Pacifico', cursive;
+       font-size: 3em;
 }
 h1 { margin-bottom: 0;
     margin-top: auto;
@@ -47,8 +62,11 @@ nav a:hover {
   color: white
 }
 
-main { padding: 1px 20px 20px 20px;
-      display: block;}
+main {
+      padding: 1px 20px 20px 20px;
+      display: block;
+      /* padding-bottom: 100px; */
+      }
 
 h2 { color: #000000;
 	font-family: 'Pacifico', cursive;
@@ -56,46 +74,61 @@ h2 { color: #000000;
   text-align: center;
 }
 
-dt { color: #000033;
+div.gallery {
+  margin: 65px;
+  border: 10px solid #663300;
+  float: left;
+  width: 180px;
+  margin-left: 170px;
+  font-family: 'Pacifico', cursive;
 }
 
-.house { color: #000000;
-          font-weight: bold;
-          font-size: 50px;
+/* div.gallery:hover {
+  border: 1px solid #777;
+} */
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 
 .contactinfo { font-weight: bold;}
 
 img {
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   float: left;
   height: 250px;
-  width: 250px;
+  /* width: 250px; */
   margin-right: 50px;
 }
 
-img:hover {
+/* img:hover {
   border: 1px solid #777;
-}
+} */
 
 #contact {
   position: absolute;
-  top: 880px;
-  left: 200px;
-  color: #000000;
-  padding-top: 60px;
-  padding-bottom: 15px;
-  font-size: 90%;
-  font-family: 'Pacifico', cursive;
+    top: 900;
+    left: 100px;
+    color: #000000;
+    /* padding-bottom: 15px; */
+    font-size: 1em;
+    font-family: 'Pacifico', cursive;
 }
 
-footer { background-color: #cc6600;
+footer {
+  background-color: #cc6600;
   color: #000000;
   font-size: 75%;
-	   font-family: 'Pacifico', cursive;;
-	   text-align: center;
-	   padding: 30px;
-     margin-top: 30px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding: 30px;
+  margin-top: 400px;
 }
 
 main p {
@@ -105,14 +138,15 @@ main p {
 footer a {color: #000000;}
 
 .coffee-pic { background-image: url(../images/coffee-beans-background.jpg);
-       height: 400px;
+       height: 500px;
 		   background-repeat: no-repeat;
 		   background-size: 100% 100%;
+       background-attachment: fixed;
 }
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 60%;
   bottom: 10%;
   transform: translate(-50%, -50%);
@@ -121,30 +155,47 @@ footer a {color: #000000;}
   color: #000000;
 }
 
-.menu { background-image: url(../images/menu.jpg);
-        width: 500px;
-        height: 600px;
+.menu { background-image: url(../images/menuboard.jpg);
+        width: 900px;
+        height:600px;
 		   background-repeat: no-repeat;
 		   background-size: 100% 100%;
        position: relative;
-       left: 300px;
+       left: 100px;
 }
 
 .about { background-image: url(../images/coffeeshop2.jpeg);
-           height: 600px;
+           height: 700px;
 		   background-repeat: no-repeat;
 		   background-size: 100% 100%;
+       background-attachment: fixed;
 }
 
 div.aboutdesc {
-  margin: 30px;
   background-color: #ffffff;
+  height: 700px;
   border: 1px solid black;
   opacity: 0.6;
+  font-size: 1.5em;
 }
 
 div.aboutdesc p {
   margin: 5%;
   font-weight: bold;
   color: #000000;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  text-align: center;
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
