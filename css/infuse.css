@@ -1,14 +1,13 @@
-body { background-color: #ffffff;
-      /* color: #666666; */
+/* body background color : */
+body { background-color: #ffffcc;
 }
 
 #wrapper {
+       width: 100%;
        margin-left: auto;
-		   margin-right: auto;
-		   background-color: #FFFFFF;
-		   min-width: 960px;
-		   max-width: 2048px;
-		   /*   box-shadow: 3px 3px 3px #333333; */
+       margin-right: auto;
+       min-width: 960px;
+       max-width: 2048px;
 }
 
 .timing{
@@ -20,37 +19,29 @@ body { background-color: #ffffff;
   padding-left:10px;
   padding-right:8px;
   text-align:center;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Gentium Book Basic', serif;
 
 }
 header {
-       background-color: #ffffff;
+       background-color: #ffffcc;
        color: #000000;
-       background-image: url(../images/coffeebeansheart.jpeg);
+       background-image: url(../images/cheart3.png);
        background-repeat: no-repeat;
        background-size: 100px 100px;
        background-position: center;
        text-align: center;
-       /* height: 80px; */
        padding: 25px;
-       /* margin-top: 10px; */
-       /* margin-bottom: 0; */
-       /* margin-top: auto; */
-       font-family: 'Pacifico', cursive;
+       font-family: 'Great Vibes', cursive;
        font-size: 3em;
 }
-h1 { margin-bottom: 0;
-    margin-top: auto;
-    font-family: 'Pacifico', cursive;
-    font-size: 3em;
-}
 
-nav { background-color: #cc6600;
-  font-family: 'Pacifico', cursive;
-     font-weight: bold;
-	   text-align: center;
-	   padding-top: 25px;
-     padding-bottom: 20px;
+nav {
+  background-color: #663300;
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
 }
 nav a { text-decoration: none;
         color: #000000;
@@ -58,34 +49,30 @@ nav a { text-decoration: none;
  }
 
 nav a:hover {
-  background-color: #cc6600;
-  color: white
+  background-color: #ffffcc;
 }
 
 main {
-      padding: 1px 20px 20px 20px;
       display: block;
-      /* padding-bottom: 100px; */
+      background-color: #ffffcc;
+      margin: 80px;
       }
 
-h2 { color: #000000;
-	font-family: 'Pacifico', cursive;
-	text-shadow: 1px 1px 1px #ccc;
-  text-align: center;
+h2 {
+	color: #000000;
+	font-family: 'Gentium Book Basic', serif;
+	text-align: center;
+	background-color: #ffffcc;
+	margin: 50px;
 }
 
 div.gallery {
-  margin: 65px;
   border: 10px solid #663300;
   float: left;
   width: 180px;
-  margin-left: 170px;
-  font-family: 'Pacifico', cursive;
+  margin-left: 200px;
+  font-family: 'Gentium Book Basic', serif;
 }
-
-/* div.gallery:hover {
-  border: 1px solid #777;
-} */
 
 div.gallery img {
   width: 100%;
@@ -100,39 +87,35 @@ div.desc {
 .contactinfo { font-weight: bold;}
 
 img {
-  /*border: 1px solid #ccc;*/
   float: left;
-  height: 250px;
-  /* width: 250px; */
+  height: 200px;
   margin-right: 50px;
+  margin-left: px;
+  margin-left: 3;
 }
-
-/* img:hover {
-  border: 1px solid #777;
-} */
 
 #contact {
   position: absolute;
     top: 900;
     left: 100px;
     color: #000000;
-    /* padding-bottom: 15px; */
     font-size: 1em;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Gentium Book Basic', serif;
 }
 
 footer {
-  background-color: #cc6600;
+  background-color: #663300;
   color: #000000;
-  font-size: 75%;
-  font-family: 'Pacifico', cursive;
+  font-size: 90%;
+  font-weight: bold;
+  font-family: 'Gentium Book Basic', serif;
   text-align: center;
   padding: 30px;
   margin-top: 400px;
 }
 
 main p {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Gentium Book Basic', serif;
 }
 
 footer a {color: #000000;}
@@ -150,25 +133,29 @@ footer a {color: #000000;}
   left: 60%;
   bottom: 10%;
   transform: translate(-50%, -50%);
-  font-family: 'Pacifico', cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 50px;
   color: #000000;
 }
 
-.menu { background-image: url(../images/menuboard.jpg);
+.menu {
+        background-image: url(../images/menuboard.jpg);
         width: 900px;
-        height:600px;
-		   background-repeat: no-repeat;
-		   background-size: 100% 100%;
-       position: relative;
-       left: 100px;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        left: 100px;
+        margin: 100px;
 }
 
-.about { background-image: url(../images/coffeeshop2.jpeg);
+.about {
+           background-image: url(../images/coffeeshop2.jpeg);
            height: 700px;
-		   background-repeat: no-repeat;
-		   background-size: 100% 100%;
-       background-attachment: fixed;
+           background-repeat: no-repeat;
+           background-size: 100% 100%;
+           background-attachment: fixed;
+           margin: 100px;
 }
 
 div.aboutdesc {
@@ -191,6 +178,8 @@ div.aboutdesc p {
   float: left;
   width: 33.33%;
   padding: 15px;
+  margin-left: 150px;
+  margin-bottom: 60px;
 }
 
 /* Clear floats after the columns */
@@ -198,4 +187,17 @@ div.aboutdesc p {
   content: "";
   display: table;
   clear: both;
+}
+
+.button {
+  background-color: #663300;/* Black */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
