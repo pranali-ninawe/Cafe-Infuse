@@ -1,5 +1,5 @@
 # Cafe Infuse website code
-Cafe infuse website code - Assignment 1
+Cafe infuse website code - Static Website
 
 ## Requirements
 * Browser: Firefox/Chrome/Safari
